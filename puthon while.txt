@@ -1,0 +1,11 @@
+liczby=[1,2,2,2,2,3]
+licznik=0
+
+while licznik != len(liczby):
+    if liczby[licznik]==2:
+        liczby.pop(licznik)
+    else:
+        licznik +=1
+
+        print(liczby)
+        
